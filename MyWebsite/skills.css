@@ -126,7 +126,7 @@ body, html {
 .section2 {
     margin-top: 180px;
     width: 100%;
-    background-color: #73b9ee;
+    background-color: #6a89a7;
 }
 
 .skillssection {
@@ -197,10 +197,12 @@ body, html {
     position: relative;
     padding: 0;
     display: inline-flex;
+    max-height: 1400px;
 }
 .jhu {
-    width: 50%;
+    width: 60%;
     height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 .JHU div {
@@ -213,7 +215,8 @@ body, html {
     flex-direction: column; /* Stack elements vertically (optional) */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Ensure text elements are centered */
-    margin-left: -50px;
+    margin-left: -200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .JHU h1 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -234,9 +237,75 @@ body, html {
     color: black;
     text-align: Center;
     font-size: 13px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 .Chtml {
     width: 700px !important; /* Set the desired width */
     height: auto !important; /* Maintain aspect ratio */
+}
+
+.UST {
+    margin-top: 50px;
+    position: relative;
+    padding: 0;
+    display: inline-flex;
+    max-height: 1400px;
+}
+.jhu {
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: -200px;
+
+}
+.UST div {
+    padding-top: 50px;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    margin-top: 100px;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack elements vertically (optional) */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Ensure text elements are centered */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.coursera {
+    width: 350px;
+}
+.UST h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #001f3f;
+    font-weight: 700;
+    text-align: Center;
+    margin-bottom: 20px;
+}
+.UST p {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: black;
+    text-align: Center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.UST article {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: black;
+    text-align: Center;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.Chtml {
+    width: 700px !important; /* Set the desired width */
+    height: auto !important; /* Maintain aspect ratio */
+}
+.divider {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: White;
+    font-weight: 700;
+    text-align: Center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 100px;
 }
