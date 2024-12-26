@@ -1,69 +1,48 @@
 * {
-	margin: 0px;
-	padding: 0px;
-}
-head {
-	margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav {
-    display: flex; /* Use flexbox layout */
-    justify-content: space-between; /* Distribute space between the buttons */
-    width: 100%; /* Full width of the container */
-    padding: 10px;
-    background: white;
-    padding-bottom: 10px;
-    max-height: 90px;
-    position:fixed;
-     top: 0; /* Positions the nav at the top of the viewport */
-    left: 0; /* Aligns the nav to the left edge */
+body, html {
+    height: 100%;
+    background-color: gray;
+    margin: 0; 
+    padding: 0;
 }
-.name {
-	margin-top: 20px;
-	font-size: 20px;
-	margin-left: 15px;
+
+.navbar-left {
+    display: flex;
+    align-items: center;
 }
-.nav span {
-	width: 60%;
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: white;
 }
+
+
 .pfp {
-	 width: 60px; /* Set the desired width */
-	 height: 60px; /* Set the desired height */
-	 border-radius: 50%; /* Makes the image circular */
-	 overflow: hidden; /* Ensures the image fits within the circle */
-	 border: 1px solid #333; /* Optional: Add a border */
-	 margin-top: 0px;
-	 margin-left: 3%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #333;
+    margin-right: 10px;
 }
+
 .pfp img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
-.nav button {
-    flex: 1; /* Each button takes up equal space */
-    margin: 0 10px; /* Add space between buttons */
-    padding: 10px;
-    background: none;
-    color: #333;
-    border: none;
-    font-size: 13px;
-    display: inline-block;
-    white-space: nowrap;
-}
-/* dashboard */
-.bg {
-    background-repeat: no-repeat; /* Prevents the image from repeating */
     width: 100%;
-}
-html, body {
-    height: 100%; /* Ensures the body fills the full height of the viewport */
-    background-color:gray;
-}
-body p {
-	margin-top: 600px;
-	color: black;
-	width:100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0; 
+    margin-top: -20px;
+}
