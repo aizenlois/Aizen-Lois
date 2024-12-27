@@ -370,13 +370,16 @@ body, html {
 .lessons {
     width: 700px;
 }
+.section3 {
+    text-align: center;
+}
 .seminar {
     margin-top: -100px;
     position: relative;
     text-align: center;
 
 }
-.seminar img {
+.seminarsjpg {
     width: 800px;
     border-radius: 50px;
     overflow: hidden;
@@ -395,4 +398,18 @@ body, html {
     text-align: Center;
     font-size: 18px;
     margin-bottom: 30px;
+}
+.first {
+    position: relative;
+    display: flex;
+}
+.first div {
+    margin: auto;
+    align-items: center;
+}
+.firstT img{
+    width: 100px;
+}
+.erouvotika{
+    width: 600px;
 }
