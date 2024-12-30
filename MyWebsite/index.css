@@ -582,7 +582,6 @@ body, html {
     margin-top: -100px;
     position: relative;
     text-align: center;
-
 }
 .seminarsjpg {
     width: 800px;
@@ -684,11 +683,13 @@ body, html {
         }
         .secondT {
             grid-area: header;
+            margin: 0;
         }
 
         .darnell {
+            width: 100%;
             grid-area: footer;
-            margin-left: auto;
+            margin: 0;
         }
         .third {
             position: relative;
@@ -704,7 +705,30 @@ body, html {
         }
         .banner {
             width: 200%;
-
+        }
+        .seminarsjpg {
+            width: 100%;
+            border-radius: 50px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(1, 1, 1, 0.1);
+        }
+        .seminar {
+            margin-top: -100px;
+            position: relative;
+            text-align: center;
+            width: 100%;
+            overflow: hidden;
+        }
+        .section2 {
+            overflow: hidden;
+            width: 100%;
+        }
+        .section4 {
+            margin-top: -100px;
+            position: relative;
+            text-align: center;
+            width: 100%;
+            overflow: hidden;
         }
     }
 
@@ -724,11 +748,7 @@ body, html {
 .secondT img{
     width: 100px;
 }
-.second div {
-    margin: auto;
-    align-items: center;
-    padding: 50px;
-}
+
 .darnell{
     width: 500px;
     margin: 50px;
@@ -881,6 +901,11 @@ body, html {
         margin-bottom: 20px;
         margin-top: 50px;
     }
+    .second div {
+        margin: auto;
+        align-items: center;
+        padding: 50px;
+    }
 
 
 
@@ -905,7 +930,7 @@ body, html {
         margin-bottom: 30px;
     }
     .packetworx{
-        width: 500px;
+        width: 100%;
         box-shadow: 0 4px 10px rgba(1, 1, 1, 0.1);
     }
     .l1app {
@@ -947,6 +972,15 @@ body, html {
         margin-top: -100px;
         width: 150px;
         margin-bottom: -50px;
+    }
+    .darnell{
+        width: 500px;
+        box-shadow: 0 4px 10px rgba(1, 1, 1, 0.1);
+    }
+    .second div {
+        margin: auto;
+        align-items: center;
+        padding: 0;
     }
 }
 
