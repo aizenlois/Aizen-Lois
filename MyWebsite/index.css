@@ -9,6 +9,27 @@ body, html {
     margin: 0; 
     padding: 0;
 }
+
+@media (min-width:700px) {
+    .intro {
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .intro {
+        position: fixed;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        bottom: 0;
+        height: 120px;
+        color: white;
+        background-color: black;
+        opacity: 80%;
+        z-index: 2000;
+    }
+}
+
 .navbar-left {
     display: flex;
     align-items: center;
@@ -48,9 +69,16 @@ body, html {
 }
 
 .navbar {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important; /* Override Bootstrap's margin */
+    padding: 0 !important; /* Override Bootstrap's padding */
+    position: fixed !important; /* Ensure fixed positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Stay above other elements */
+    box-shadow: 0 4px 10px rgba(1, 1, 1, 0.1);
 }
+
 .white{
     height: 800px;
     background-color: white;
@@ -67,11 +95,6 @@ body, html {
 .bg img {
     width: 100%;
     height: 100%;
-}
-@media (max-width: 767px) {
-      P {
-           Color: blue;
-        }
 }
 
 .quote {
