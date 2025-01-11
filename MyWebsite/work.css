@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html body {
+    background-color: #F5F5F5;
+}
+body, html {
+    margin: 0; 
+    padding: 0;
+}
+
+@media (min-width:700px) {
+    .intro {
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .intro {
+        position: fixed;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        bottom: 0;
+        height: 120px;
+        color: white;
+        background-color: black;
+        opacity: 80%;
+        z-index: 2000;
+    }
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: white;
+        padding: 0;
+}
+
+.pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #333;
+    margin-right: 10px;
+}
+
+.pfp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: Lilita one;
+    text-align: Center;
+    color: #001f3f !important;
+}
+.pfp:hover {
+    transform: scale(3); /* Zoom the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for emphasis */
+    z-index: 10; /* Ensures the image is above other elements */
+}
+
+.navbar {
+    margin: 0 !important; /* Override Bootstrap's margin */
+    padding: 0 !important; /* Override Bootstrap's padding */
+    position: fixed !important; /* Ensure fixed positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Stay above other elements */
+    box-shadow: 0 4px 10px rgba(1, 1, 1, 0.1);
+}
